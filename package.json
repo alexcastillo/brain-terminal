@@ -1,0 +1,44 @@
+{
+  "name": "brain-terminal",
+  "version": "1.0.0",
+  "description": "Use the terminal to get inside the brain",
+  "main": "./index.js",
+  "bin": {
+    "brain-terminal": "./bin/brain-terminal"
+  },
+  "scripts": {
+    "start": "./bin/brain-terminal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexcastillo/brain-terminal"
+  },
+  "keywords": [
+    "brain",
+    "terminal",
+    "eeg",
+    "top",
+    "chart",
+    "notion",
+    "neurosity",
+    "dashboard"
+  ],
+  "author": "alexcastillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcastillo/brain-terminal"
+  },
+  "homepage": "https://github.com/alexcastillo/brain-terminal#readme",
+  "dependencies": {
+    "@neurosity/notion": "^5.0.0-rc.3",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.20",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.2",
+    "linspace": "^1.0.0",
+    "rxjs": "^6.6.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
