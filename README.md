@@ -6,7 +6,7 @@ Use the terminal to get inside the human brain.
 $ npx brain-terminal
 ```
 
-![brain-terminal](./img/brain-terminal.png)
+![brain-terminal](https://github.com/alexcastillo/brain-terminal/raw/v1.0.0/img/brain-terminal.png)
 
 - 🧠 Visualizes real-time brainwaves
 - 🧘🏾 Quantify focus & calm scores
