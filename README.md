@@ -1,6 +1,6 @@
 # brain-terminal
 
-Use the terminal to get inside the human brain.
+Use the terminal to get inside the human brain 🤯
 
 ```sh
 $ npx brain-terminal
@@ -8,11 +8,11 @@ $ npx brain-terminal
 
 ![brain-terminal](https://github.com/alexcastillo/brain-terminal/raw/v1.0.0/img/brain-terminal.png)
 
-- 🧠 Visualizes real-time brainwaves
+- 🧠 Visualize real-time brainwaves
 - 🧘🏾 Quantify focus & calm scores
 - 📊 Plot frequency bands: Alpha, Beta, Delta, Theta & Gamma
 - ⚡ Device status, sleep mode, battery levels, and OS version
-- 👌 Exit terminal with your mind (trained command: `rightHandPinch`)
+- 👌 Exit terminal via thought by passing `--kinesis-esc-cmd=YOUR_TRAINED_COMMAND`
 - 🔑 Neurosity authentication & multiple device support
 
 ## License

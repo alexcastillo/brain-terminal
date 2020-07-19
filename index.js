@@ -1,5 +1,6 @@
 const { Notion: Mind } = require("@neurosity/notion");
 const inquirer = require("inquirer");
+const { argv } = require("yargs");
 const { getLoginPrompts, getDevicesPrompt } = require("./lib/prompts");
 
 async function init() {
@@ -31,6 +32,8 @@ async function init() {
   const PowerByBand = require("./lib/powerByBand");
   const { tween } = require("./lib/tween");
   const { getStatusString } = require("./lib/status");
+
+  const kinesisEscCmd = argv["kinesis-esc-cmd"];
 
   screen.render();
 
@@ -69,9 +72,11 @@ async function init() {
     charts.status.setContent(statusString);
   });
 
-  mind.kinesis("rightHandPinch").subscribe(() => {
-    process.exit();
-  });
+  if (kinesisEscCmd) {
+    mind.kinesis(kinesisEscCmd).subscribe(() => {
+      process.exit();
+    });
+  }
 }
 
 module.exports = {
