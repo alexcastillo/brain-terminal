@@ -1,6 +1,6 @@
 {
   "name": "brain-terminal",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Use the terminal to get inside the brain",
   "main": "./index.js",
   "bin": {
