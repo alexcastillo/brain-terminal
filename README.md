@@ -8,7 +8,7 @@ Use the terminal to get inside the human brain 🤯
 $ npx brain-terminal
 ```
 
-![brain-terminal](https://github.com/alexcastillo/brain-terminal/raw/v1.1.0/img/brain-terminal.gif)
+![brain-terminal](https://github.com/alexcastillo/brain-terminal/raw/v1.1.1/img/brain-terminal.gif)
 
 - 🧠 Visualize real-time brainwaves
 - 🧘🏾 Quantify focus & calm scores
